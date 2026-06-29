@@ -274,7 +274,6 @@
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.233);
     }
     .card:hover {
-        transform: scale(1.05) translateY(-10px);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.233);
     }
     @media (max-width: 1750px) {
@@ -283,7 +282,6 @@
             margin: 0 auto;
         }
     }
-
     @media (max-width: 1000px) {
         html {
             scroll-padding-top: 300px;
