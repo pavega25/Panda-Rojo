@@ -1,6 +1,6 @@
 // Añadir un botón flotante para cambiar preferencias después de aceptar
 const floatingBtn = document.createElement('button');
-floatingBtn.innerHTML = '<img src="assets/images/favicon.webp">';
+floatingBtn.innerHTML = '<img src="assets/images/favicon.webp" style="border-radius: 50%;">';
 floatingBtn.style.cssText = `
     position: fixed;
     border-radius: 50%;
@@ -8,7 +8,6 @@ floatingBtn.style.cssText = `
     left: 20px;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
     background: #dc3545;
     color: white;
     border: none;
