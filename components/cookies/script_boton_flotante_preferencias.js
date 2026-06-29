@@ -3,6 +3,7 @@ const floatingBtn = document.createElement('button');
 floatingBtn.innerHTML = '<img src="assets/images/favicon.webp">';
 floatingBtn.style.cssText = `
     position: fixed;
+    border-radius: 50%;
     bottom: 20px;
     left: 20px;
     width: 50px;
